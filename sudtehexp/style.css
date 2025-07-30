@@ -1,0 +1,211 @@
+/*
+Theme Name: sudtehexp
+Description: Тематика судебных технических экспертиз. Основана на макете beta.ru.
+Author: sudtehexp
+Version: 1.0
+*/
+
+body {
+margin: 0;
+font-family: 'Manrope', sans-serif;
+background: #e1e2e7;
+color: #333;
+}
+.page {
+display: flex;
+}
+.sidebar {
+width: 35%;
+position: fixed;
+right: 0;
+top: 0;
+height: 100vh;
+background: #e1e2e7;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 40px;
+box-sizing: border-box;
+}
+.sidebar-inner {
+text-align: center;
+max-width: 90%;
+}
+.sidebar-inner h1 {
+font-size: 120px;
+transform: rotate(-10deg);
+margin: 0 0 30px;
+line-height: 1;
+}
+.sidebar-inner p, .sidebar-inner a {
+font-size: 18px;
+margin: 8px 0;
+color: #000;
+text-decoration: none;
+}
+.main-content {
+margin-right: 35%;
+padding: 60px;
+box-sizing: border-box;
+max-width: 1200px;
+}
+.hero-video {
+position: relative;
+background: #ccc;
+height: 450px;
+border-radius: 20px;
+margin-bottom: 60px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 24px;
+color: #333;
+font-weight: bold;
+}
+.showreel-btn {
+position: absolute;
+top: 20px;
+left: 20px;
+background: #fff;
+border: none;
+border-radius: 20px;
+padding: 12px 24px;
+cursor: pointer;
+font-size: 16px;
+}
+.services {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 40px;
+margin-bottom: 80px;
+}
+.card {
+background: #fff;
+border-radius: 20px;
+padding: 30px;
+box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+.card h3 {
+margin-top: 10px;
+margin-bottom: 10px;
+font-size: 22px;
+}
+.card p {
+font-size: 16px;
+}
+.image-placeholder {
+background: #999;
+height: 200px;
+border-radius: 10px;
+margin-top: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #fff;
+font-weight: bold;
+}
+.stats {
+display: flex;
+justify-content: space-between;
+margin-bottom: 80px;
+}
+.stat-card {
+flex: 1;
+background: #fff;
+margin: 0 10px;
+border-radius: 20px;
+text-align: center;
+padding: 40px 20px;
+box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+.stat-card h2 {
+font-size: 48px;
+margin: 0 0 10px;
+}
+.projects {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 40px;
+margin-bottom: 80px;
+}
+.project-item {
+background: #fff;
+padding: 20px;
+border-radius: 20px;
+box-shadow: 0 0 20px rgba(0,0,0,0.1);
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-size: 16px;
+}
+.project-carousel {
+background: #999;
+height: 300px;
+border-radius: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #fff;
+font-weight: bold;
+}
+.methodology {
+background: #333;
+color: #fff;
+padding: 40px;
+border-radius: 20px;
+margin-bottom: 80px;
+}
+.methodology h3 {
+margin-bottom: 20px;
+}
+.methodology .cards {
+display: flex;
+gap: 20px;
+}
+.methodology .card {
+background: #555;
+padding: 20px;
+border-radius: 10px;
+flex: 1;
+cursor: pointer;
+text-align: center;
+transition: background 0.3s;
+}
+.methodology .card:hover {
+background: #777;
+}
+.clients, .contacts-block {
+background: #fff;
+padding: 30px;
+border-radius: 20px;
+box-shadow: 0 0 20px rgba(0,0,0,0.1);
+margin-bottom: 60px;
+}
+.clients ul {
+list-style: none;
+columns: 2;
+padding: 0;
+margin: 0;
+}
+.contacts-block {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 40px;
+align-items: start;
+}
+.map {
+background: #999;
+height: 200px;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #fff;
+font-weight: bold;
+}
+footer {
+text-align: center;
+font-size: 16px;
+color: #555;
+margin-top: 40px;
+}
